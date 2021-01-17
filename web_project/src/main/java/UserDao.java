@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class UserDao {
     private String url = "jdbc:postgresql://localhost:5432/registration";
     private String name = "postgres";
-    private String password = "2m3410lt";
+    private String password = "secret";
 
     public void loadDriver(String driver){
         try {
